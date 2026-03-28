@@ -1,5 +1,16 @@
 # City Map Poster Generator
 
+```bash
+# --theme ocean
+
+uv run ./create_map_poster.py --city "Bangkok" --country "Thailand" --theme blueprint
+
+uv run ./create_map_poster.py --city "Bangkok" --country "Thailand" --theme blueprint --width 16 --height 9
+
+uv run ./create_map_poster.py --city "Bangkok" --country "Thailand" --theme blueprint --width 19.2 --height 10.8
+```
+---
+
 Generate beautiful, minimalist map posters for any city in the world.
 
 <img src="posters/singapore_neon_cyberpunk_20260118_153328.png" width="250">

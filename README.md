@@ -4,11 +4,11 @@
 # --theme ocean
 
 uv run ./create_map_poster.py --city "Bangkok" --country "Thailand" --theme blueprint
-
 uv run ./create_map_poster.py --city "Bangkok" --country "Thailand" --theme blueprint --width 16 --height 9
-
+uv run ./create_map_poster.py --city "Bangkok" --country "Thailand" --theme blueprint --width 16 --height 10
 uv run ./create_map_poster.py --city "Bangkok" --country "Thailand" --theme blueprint --width 19.2 --height 10.8
 ```
+
 ---
 
 Generate beautiful, minimalist map posters for any city in the world.
